@@ -1,0 +1,165 @@
+/* 
+
+/* CSS */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #f1efef;
+  color: #191717;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+  background-repeat: repeat;
+  margin: 100px auto;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  background-color: lightcyan;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header {
+  padding: 5px;
+}
+
+.header .judul {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #7d7c7c;
+  padding: 5px;
+}
+
+.header a:hover {
+  background-color: rgb(39, 119, 119);
+  color: white;
+  font-weight: bolder;
+}
+
+.jurusan {
+  height: 400px;
+  background-image: url("https://www.mas-software.com/wp-content/uploads/2021/06/Jaringan-Komputer-Adalah.jpg");
+  background-size: cover;
+  background-position: 0 -50px;
+  border-top: 5px solid aquamarine;
+  border-bottom: 5px solid aqua;
+}
+
+.content {
+  padding: 5px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 15px;
+  margin-top: -23px;
+}
+
+.content .penulis a {
+  color: blue;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.content .penulis a:hover {
+  color: rgb(64, 176, 252);
+}
+
+footer {
+  background-color: cyan;
+  text-align: center;
+  color: black;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  color: rgb(48, 45, 45);
+}
+
+.sidebar img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  font: 12px/18px arial;
+}
+
+.twitter {
+  width: 200px;
+  height: 200px;
+  background-image: url(twiter.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -99999999px;
+  position: absolute;
+  right: -14px;
+  top: -12px;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: aquamarine;
+  border-top: 5px solid whitesmoke;
+  border-bottom: 5px solid white;
+  z-index: 99;
+  padding: 5px;
+}
+
+.topbar ul li {
+  display: inline-block;
+}
+
+.topbar ul li a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Clear Fix */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
